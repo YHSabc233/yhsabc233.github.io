@@ -1,14 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>跳转页面示例</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YHSabc233的个人网站</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #50b3a2;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .banner {
+    text-align: center;
+    background: url('your-image-url.jpg') no-repeat 0 -100px;
+    color: #ffffff;
+    padding: 100px 0;
+  }
+  .banner h1 {
+    font-size: 55px;
+    margin: 0;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+  .banner h1, .banner p {
+    animation: fadeInDown 2s ease-out;
+  }
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .main-col {
+    float: left;
+    width: 65%;
+  }
+  .sidebar {
+    float: right;
+    width: 35%;
+    background: #ffffff;
+    padding: 10px;
+    min-height: 400px;
+  }
+  .portfolio {
+    width: 90%;
+    margin: auto;
+  }
+  .portfolio img {
+    width: 100%;
+  }
+  footer {
+    background: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
 </head>
 <body>
 
-<!-- 使用 <a> 标签直接跳转 -->
-<a href="about.html"><button>跳转到 About 页面</button></a>
+<header>
+  <div class="container">
+    <div id="branding">
+      <h1>我的个人网站</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="index.html"><a href="index.html">首页</a></li>
+        <li><a href="touhou.html">东方</a></li>
+        <li><a href="update.html">网站修改记录</a></li>
+        <li><a href="test.html">测试页面(实验性)</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="banner">
+  <div class="container">
+    <h1>欢迎来到YHSabc233的个人网站</h1>
+    <p>个人网站2.0</p>
+  </div>
+</section>
+
+<section class="main-col">
+  <div class="container">
+    <h1>关于我</h1>
+    <p>对网站做了一些大改动--2024-10-13 16:13</p>
+  </div>
+</section>
+
+<aside class="sidebar">
+  <div class="container">
+    <h3>联系方式</h3>
+    <p>QQ：819307104</p>
+    <p>快手：YHSabc233</p>
+    <p>B站：YHSabc233</p>
+  </div>
+</aside>
+
+<footer>
+  <p> &copy; 2024 YHSabc233</p>
+</footer>
 
 </body>
 </html>
