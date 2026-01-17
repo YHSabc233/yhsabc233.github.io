@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Function Zombies Helper</title>
+    <link href="/2025/11/27/Function-Zombies-Helper/"/>
+    <url>/2025/11/27/Function-Zombies-Helper/</url>
+    
+    <content type="html"><![CDATA[<style>    .qq-logo {        width: 40px;        height: 40px;        border-radius: 50px;        margin-right: 8px;    }    .date {        text-align: right;    }</style><h1 id="Function-Zombies-Helper"><a href="#Function-Zombies-Helper" class="headerlink" title="Function Zombies Helper"></a>Function Zombies Helper</h1><blockquote><p>注：本站仅收录文字部分并提供中文翻译，如需更多及英文版本请前往<a href="https://modrinth.com/mod/function-zombies-helper/changelog">Modrinth</a>查看。</p></blockquote><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ul><li>血量显示 [已发布]</li><li>Show Spawn Time [算是可用吧…但正处于测试阶段，不稳定]</li><li>还有更多?也许吧…</li></ul><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><blockquote><p>此处仅展示最新版本的更新日志，如需往期请查看文章结尾链接。</p></blockquote><h3 id="1-0-0-Beta-3-RE"><a href="#1-0-0-Beta-3-RE" class="headerlink" title="1.0.0 Beta 3 RE"></a>1.0.0 Beta 3 RE</h3><!--1. 新增 配置项“displayWhen”：            可选“ALWAYS”，“GAME_STARTED”。             （用于调整血量显示功能在什么时候被启用，如果为“ALWAYS”，将全局保持显示不会中途隐藏，如果为“GAME_STARTED”，则只会在游戏开始后置顶显示并在结束后隐藏。）--><ol><li><strong>现在模组可以通过<a href="https://modrinth.com/mod/modmenu/versions?g=1.21.5">Mod Menu</a>模组自动检查更新了。</strong></li><li>SST（Show Spawn Time）功能测试Ver1：<br>     信息显示功能 （感觉没用 需自行输入&#x2F;fzh beta ShowSpawnTime true开启）<br>     <!--传送门实验室（Portal Lab）第1-10回合SST测试--></li></ol><!--1. 新增 FZH配置修改GUI **(需要安装[Mod Menu](https://modrinth.com/mod/modmenu/versions?g=1.21.5)模组)**--><ol><li>新增 扩展了帮助列表，新增配置项的帮助。</li><li>新增 &#x2F;lang 指令，可快速切换语言并立即重载资源。（虽然不知道有没有用）</li><li>修改 当玩家延迟显示为0ms将变为灰色。</li><li>修改 部分英文翻译。</li><li>修改 配置项“displayMode”：<br>     “HEALTH”简化为“HP”，<br>     “DISTANCE”简化为“DIST”。</li><li>修复 &#x2F;fzh set position命令直接执行不会显示当前HPDP显示位置，反而&#x2F;fzh set会触发，并且还无法正常显示数值。</li></ol><p class="date">2025年12月2日21:08:56</p><h4 id="本次更新参与者"><a href="#本次更新参与者" class="headerlink" title="本次更新参与者"></a>本次更新参与者</h4><ul><li><img class="qq-logo" src="/img/head/YHSabc233.jpg">YHSabc233</img> [1. 2. 3. 4. 5. 7. 8.]</li><li><img class="qq-logo" src="/img/head/XMM010.jpg">XMM010</img> [6.]</li></ul><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li><a href="https://github.com/YHSabc233/FunctionZombiesHelper/">Github 仓库</a></li><li><a href="https://github.com/YHSabc233/FunctionZombiesHelper/issues">Github Issues</a></li><li><a href="https://modrinth.com/mod/function-zombies-helper/">Modrinth</a></li><li><a href="changelog/">FZH - 更新日志</a></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Mod</tag>
+      
+      <tag>FZH</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>FZH - 更新日志</title>
+    <link href="/2025/11/27/Function-Zombies-Helper/changelog/"/>
+    <url>/2025/11/27/Function-Zombies-Helper/changelog/</url>
+    
+    <content type="html"><![CDATA[<style>    .qq-logo {        width: 40px;        height: 40px;        border-radius: 50px;        margin-right: 8px;    }</style><blockquote><p>可能排版较为混乱，还请各位在底部评论区提出修改建议。</p></blockquote><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><h3 id="1-0-0-Beta-3-RE"><a href="#1-0-0-Beta-3-RE" class="headerlink" title="1.0.0 Beta 3 RE"></a>1.0.0 Beta 3 RE</h3><!--1. 新增 配置项“displayWhen”：            可选“ALWAYS”，“GAME_STARTED”。             （用于调整血量显示功能在什么时候被启用，如果为“ALWAYS”，将全局保持显示不会中途隐藏，如果为“GAME_STARTED”，则只会在游戏开始后置顶显示并在结束后隐藏。）--><ol><li><strong>现在模组可以通过<a href="https://modrinth.com/mod/modmenu/versions?g=1.21.5">Mod Menu</a>模组自动检查更新了。</strong></li><li>SST（Show Spawn Time）功能测试Ver1：<br>     信息显示功能 （感觉没用 需自行输入&#x2F;fzh beta ShowSpawnTime true开启）<br>     <!--传送门实验室（Portal Lab）第1-10回合SST测试--></li></ol><!--1. 新增 FZH配置修改GUI **(需要安装[Mod Menu](https://modrinth.com/mod/modmenu/versions?g=1.21.5)模组)**--><ol><li>新增 扩展了帮助列表，新增配置项的帮助。</li><li>新增 &#x2F;lang 指令，可快速切换语言并立即重载资源。（虽然不知道有没有用）</li><li>修改 当玩家延迟显示为0ms将变为灰色。</li><li>修改 部分英文翻译。</li><li>修改 配置项“displayMode”：<br>     “HEALTH”简化为“HP”，<br>     “DISTANCE”简化为“DIST”。</li><li>修复 &#x2F;fzh set position命令直接执行不会显示当前HPDP显示位置，反而&#x2F;fzh set会触发，并且还无法正常显示数值。</li></ol><p class="date">2025年12月2日21:08:56</p><p>本次更新参与者</p><ul><li><img class="qq-logo" src="/img/head/YHSabc233.jpg">YHSabc233</img> [1. 2. 3. 4. 5. 7. 8.]</li><li><img class="qq-logo" src="/img/head/XMM010.jpg">XMM010</img> [6.]</li></ul><h3 id="1-0-0-Beta-2"><a href="#1-0-0-Beta-2" class="headerlink" title="1.0.0 Beta 2"></a>1.0.0 Beta 2</h3><ol><li>配置项“keepVIsibleWhenHudHidden”的名称简化为”alwaysDisplayed”。</li><li>增加Mod Menu支持。</li><li>模组名称移除YH’S前缀。</li></ol><p>本次更新参与者</p><ul><li><img class="qq-logo" src="/img/head/YHSabc233.jpg">YHSabc233</img> [2. 3.]</li><li><img class="qq-logo" src="/img/head/XMM010.jpg">XMM010</img> [1.]</li></ul><h3 id="1-0-0-Beta-1"><a href="#1-0-0-Beta-1" class="headerlink" title="1.0.0 Beta 1"></a>1.0.0 Beta 1</h3><ol><li>重构模组，现在不再需要Fabric Language Kotlin前置Mod。</li><li>“displayWhenHUDOff” 更名为 “keepVisibleWhenHudHidden”， 新增配置项：“textMargin” （文本上下间距），默认为10。 效果图：[图片] &#x3D;&#x3D;&#x3D; 已知BUG（预计本周修复）：</li><li>position配置项只能自定义坐标，提供的四个预设项无法使用。</li></ol><p>本次更新参与者</p><ul><li><img class="qq-logo" src="/img/head/YHSabc233.jpg">YHSabc233</img> [1. 2. 3.]</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Mod</tag>
+      
+      <tag>FZH</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

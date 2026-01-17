@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YHSabc233的个人博客</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+    
+    <link rel="stylesheet" href="/files/css/style.css">
+</head>
+
+<body>
+
+    <!-- 添加菜单按钮 -->
+    <div class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">☰ 菜单</button>
+        <div class="menu-content" id="menuContent">
+            <a href="/files/">主页</a>
+            <a href="/files/blog/">博客</a>
+            <a href="/files/html/">一些东西</a>
+        </div>
+    </div>
+
+    <h1>博客</h1><hr>
+
+    <p>还在学习制作网页中...<br>可能会显得比较简陋（）</p><hr>
+    
+    <div id="blog" title="博客">
+
+            <div class="post" onclick="location.href='250623-1.html'" title="点击跳转">
+                <h3>第一篇博客</h3>
+                <p>试着写了第一篇博客，希望效果不错（）</p>
+                <p class="post_date">2025.06.23</p>
+            </div>
+
+            <div class="post" onclick="location.href='250901-1.html'" title="点击跳转">
+                <h3>网站建立2周年</h3>
+                <p>2023到2025</p>
+                <p class="post_date">2025.09.10</p>
+            </div>
+
+            <div class="post" onclick="location.href='251019-1.html'" title="点击跳转">
+                <h3>第二篇博客</h3>
+                <p>？</p>
+                <p class="post_date">2025.10.22</p>
+            </div>
+
+            <p title="lol">没有更多了</p>
+        </div>
+
+
+    
+
+    <div id="end">
+    <iframe id="iframe-website-end" width="180" height="95" frameborder="0" src="/files/html/modules/end.html"></iframe>
+    </div>
+    <script>
+            function toggleMenu() {
+                const menu = document.getElementById('menuContent');
+                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+            }
+        </script>
+</body>

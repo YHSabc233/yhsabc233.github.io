@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <link rel="icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+    <link rel="stylesheet" href="/files/css/style.css">
+</head>
+
+<body>
+    <button class="back" onclick="location.href='./'">返回</button>
+    <h1>Dev</h1>
+    <hr>
+
+    <p>如本网页标题所见，此页面用于开发测试，一些我正在制作的功能会放在这里进行测试。</p>
+    <hr>
+    <h2>深色模式test</h2>
+    <button onclick="Light();">default</button>
+    <button onclick="Dark();">dark</button>
+    <button onclick="Init();">显示cookie</button>
+    <script src="/files/js/DarkMode.js"></script>
+    <script src="/files/js/Init.js"></script>
+    <hr>
+    <h2></h2>
+    <input id="McQuerierInput" placeholder="输入玩家名（可不区分大小写）"></input>
+    <button onclick="UUIDQuery(document.getElementById('McQuerierInput').value)">查询（跳转）</button>
+    <script src="/files/js/McQuerier.js"></script>
+
+    <div>
+        <iframe id="McQuerierResult" src="/1.html"
+            sr="https://api.mojang.com/users/profiles/minecraft/YHSabc233" 
+            onload="load()">
+        </iframe>
+        <script>
+            function load() {
+                var a = document.getElementById('McQuerierResult').contentWindow.postMessage("iframe页面", "http://192.168.0.73:8080");
+                window.onmessage = e => {
+                    console.log(e.data);
+                };
+            }
+        </script>
+        <button onclick="GetData()">获取iframe窗口内容</button>
+        <script src="/files/js/McQuerier.js"></script>
+        <script src="/files/js/libs/jquery-3.7.1.min.js"></script>
+    </div>
+
+    <div id="end"><iframe id="iframe-website-end" width="180" height="95" frameborder="0"
+            src="/files/html/modules/end.html"></iframe></div>
+</body>
+
+</html>

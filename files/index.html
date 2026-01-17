@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85, user-scalable=no">
+    <title>YHSabc233的个人网站</title>
+
+    <link rel="icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="/files/images/YHSabc233.jpg">
+
+    <link rel="stylesheet" href="/files/css/style.css">
+
+</head>
+
+<body onload="GetUsingDomainIs();Init()">
+    
+    <header>
+        
+        <div class="menu-container">
+            <button class="menu-button" onclick="toggleMenu()">☰ 菜单</button>
+            <div class="menu-content" id="menuContent">
+                <a href="/files/">主页</a>
+                <a href="/files/blog/">博客</a>
+                <a href="/files/html/">一些东西</a>
+            </div>
+        </div>
+        
+        <h1>YHSabc233的个人网站</h1>
+    </header>
+
+    <h4>这里是YHSabc233的个人网站，<br>欢迎你的访问。</h4>
+    <p>目前我还在学习网页开发，
+        <br>所以网站功能没有多少，
+        <br>之后也许会做些什么...
+        <br>
+        <br>25/11/24更新：
+        <br>三个月过去了，
+        <br>该给网页大改一番了（）
+        <br>这次加了很多东西，去<a href="html/CHANGELOG.html">“更新日志”</a>看看吧！
+        <br>顺带一提，
+        <br>这次加了深色模式，不过现在是强制开启的，
+        <br>后续会尝试搞个开关
+        <br>
+        <br>你知道吗？
+        <br>现在这个网站在Cloudflare Pages也部署了一份，
+        <br>而且访问速度更快！点击<a href="https://blog.yhsabc233.top/files/">这里</a>查看。
+        <br>另外这两边是同步更新的，
+        <br>所以访问哪个都无所谓（）
+        <br>
+    <p id="UsingDomainIs">你当前正在访问的站点为：Loading...</p>
+    </p>
+    <hr>
+
+
+    <div id="blog" title="博客">
+        <h2>Blog</h2>
+
+        <div class="post" onclick="location.href='blog/251019-1.html'" title="点击跳转">
+            <h3>第二篇博客</h3>
+            <p>？</p>
+            <p class="post_date">2025.10.22</p>
+        </div>
+
+        <div class="post" onclick="location.href='blog/250901-1.html'" title="点击跳转">
+            <h3>网站建立2周年</h3>
+            <p>2023到2025</p>
+            <p class="post_date">2025.09.10</p>
+        </div>
+
+        <a href="/files/blog/" title="点击跳转">查看更多</p>
+    </div>
+
+    <hr>
+
+    <img src="images/github_icon.ico" width="16" height="16" alt="GitHub">
+    <a href="https://github.com/YHSabc233" target="_blank" style="color: grey;">GitHub</a>
+
+    <img src="https://bilibili.com/favicon.ico" width="16" height="16" alt="BiliBili">
+    <a href="https://space.bilibili.com/482126917" target="_blank" style="color: skyblue;">BiliBili</a><br><br>
+
+    <button class="dev" title="用于存放一些我在开发的东西，可能点进去会显得很乱，还请见谅（）" onclick="location.href='dev.html'">测试页面</button>
+
+    <button class="dev" title="只是更新日志" onclick="location.href='/files/html/CHANGELOG.html'">更新日志</button>
+    <script src="/files/js/typesomething.js"></script>
+    <script src="/files/js/AudioPlayer.js"></script>
+    <input title="试试看在这里输入一些东西？" placeholder="just type something...?" id="typesomething" onchange="Main(this.value)">
+
+    <!--
+    <div id="end">
+        <iframe id="iframe-website-end" width="180" height="95" frameborder="0"
+            src="/files/html/modules/end.html"></iframe>
+    </div>
+    -->
+
+    <script src="/files/js/Index.js"></script>
+    <script src="/files/js/Init.js"></script>
+
+</body>
+
+<footer>
+    <div id="end">
+        <p>© 2023.09 - 2025.11 <br>YHSabc233</p>
+        <p id="powered_by">Powered by <a id="github_pages">GitHub Pages</a>
+    </div>
+</footer>
+
+</html>

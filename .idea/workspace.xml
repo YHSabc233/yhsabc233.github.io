@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24e524f5-cf79-48a7-89ee-3ee6acfca7b5" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audio/fumika_ciallo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audio/mayu_ciallo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audio/meguru_ciallo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/audio/yoshino_ciallo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/blog/2025/11/10/博客2.0/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/blog/250623-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/blog/250901-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/blog/251019-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/dev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/fonts/McRegular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/fonts/ut.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/CHANGELOG.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/Na_Za_Le.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/YHSMOD/yhs_fzh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/YHSMOD/yhs_hpdp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/chara.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/ciallo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/mcquerier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/modules/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/modules/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/html/zombies/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/images/Chara_overworld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/images/Ciallo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/images/JustAZombie.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/images/YHSabc233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/images/github_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/AudioPlayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/DarkMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/Init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/McQuerier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/TypeSomething.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/js/libs/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old_web.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prefab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38NBr9Ake75UzQwCOhfj4AGUcPd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript 调试.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Projects/yhsabc233.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="24e524f5-cf79-48a7-89ee-3ee6acfca7b5" name="更改" comment="" />
+      <created>1768630343876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768630343876</updated>
+      <workItem from="1768630345054" duration="348000" />
+      <workItem from="1768657237296" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

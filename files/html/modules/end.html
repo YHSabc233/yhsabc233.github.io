@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>网页尾部关于信息模块</title>
+    <style>
+        @font-face {
+            font-family: 'MainPixelFont';
+            src: url('/files/fonts/McRegular.otf') format('opentype');
+        }
+
+        body {
+            font-family: MainPixelFont;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        p {
+            margin: 0 0 20px 0;
+        }
+
+        #end {
+            font-size: 10px;
+            text-align: right;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        #powered_by {
+            color: rgb(70, 70, 70);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #222;
+                color: #ddd;
+            }
+
+            a {
+                color: #ddd;
+            }
+
+            input {
+                background-color: #444;
+                color: #aaa;
+            }
+
+            #powered_by {
+                color: rgb(128, 128, 128);
+            }
+
+            #github_pages {
+                color: rgb(192, 192, 192);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="end">
+        <p>© 2023.09 - 2025.11 <br>YHSabc233</p>
+        <p id="powered_by">Powered by <a id="github_pages">GitHub Pages</a>
+    </div>
+</body>
+
+</html>
