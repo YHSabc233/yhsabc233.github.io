@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/files/css/style.css">
     <button class="back" onclick="location.href='./'">返回</button>
 
-    <h4>本页面有音频内容，请注意~</h4><hr>
+    <h4>本页面有音频内容，请注意</h4><hr>
 
 </head>
 
@@ -23,7 +23,7 @@
     font-size: 20px;
 }
     h4 {
-    color: #FF0000;
+    color: #f62d2d;
 }        
 </style>
 
@@ -35,8 +35,6 @@
 
 <audio id="meguru_ciallo" src="/files/audio/meguru_ciallo.mp3"></audio>
 <audio id="yoshino_ciallo" src="/files/audio/yoshino_ciallo.mp3"></audio>
-<audio id="fumika_ciallo" src="/files/audio/fumika_ciallo.mp3"></audio>
-<audio id="mayu_ciallo" src="/files/audio/mayu_ciallo.mp3"></audio>
 
 <script src="/files/js/AudioPlayer.js"></script>
 
@@ -49,9 +47,9 @@
 </body>
 
 <script>
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keyup', function(event) {
         if (event.key === 'c' || event.key === 'C') {
-            document.getElementById('ciallo_audioplayer').click();
+			CialloAudioPlayer()
         }
     });
 </script>
