@@ -13,7 +13,10 @@
 
 </head>
 
-<body onload="GetUsingDomainIs();Init()">
+<!--suppress HtmlDeprecatedAttribute -->
+<body onload="GetUsingDomainIs(); Init();">
+
+<div id="cursor"></div>
     
     <header>
         
@@ -34,7 +37,7 @@
         <br>所以网站功能没有多少，
         <br>之后也许会做些什么...
         <br>
-        <br>2026/01/17更新：
+        <br>2026/01/18更新：
         <br>这次给整个网页都大概了一番（也许是
         <br>希望看着不错
 	    <br>因为一些原因 我选择给网站全局深色模式（
@@ -46,8 +49,10 @@
         <br>另外这两边是同步更新的，
         <br>所以访问哪个都无所谓（）
         <br>
-    <p id="UsingDomainIs">你当前正在访问的站点为：Loading...</p>
     </p>
+    
+    <p id="UsingDomainIs">你当前正在访问的站点为：Loading...</p>
+    
     <hr>
 
 
@@ -66,7 +71,7 @@
             <p class="post_date">2025.09.10</p>
         </div>
 
-        <a href="/files/blog/" title="点击跳转">查看更多</p>
+        <a href="/files/blog/" title="点击跳转">查看更多</a>
     </div>
 
     <hr>
@@ -84,23 +89,14 @@
     <script src="/files/js/AudioPlayer.js"></script>
     <input title="试试看在这里输入一些东西？" placeholder="在这里输入些什么？" id="typesomething" onchange="Main(this.value)">
 
-    <!--
-    <div id="end">
-        <iframe id="iframe-website-end" width="180" height="95" frameborder="0"
-            src="/files/html/modules/end.html"></iframe>
-    </div>
-    -->
-
     <script src="/files/js/Index.js"></script>
     <script src="/files/js/Init.js"></script>
 
 </body>
 
-<footer>
-    <div id="end">
-        <p>© 2023.09 - 2026.01 <br>YHSabc233</p>
-        <p id="powered_by">Powered by <a id="github_pages">GitHub Pages</a>
-    </div>
+<footer class="end">
+	<p>© 2023.09 - 2026.01 <br>YHSabc233</p>
+	<p id="powered_by">Powered by <a id="github_pages">GitHub Pages</a>
 </footer>
 
 </html>

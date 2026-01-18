@@ -1,0 +1,14 @@
+{
+  "name": "yhsabc233.github.io",
+  "version": "1.0.0",
+  "description": "YHSabc233's personal website.",
+  "scripts": {
+    "preview": "live-server",
+    "test": "npm run preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YHSabc233/yhsabc233.github.io.git"
+  },
+  "private": true
+}

@@ -8,12 +8,12 @@ function AudioPlayer(AudioName) {
 
 function CialloAudioPlayer() {
     const min = 0;
-    const max = 7;
+    const max = 1;
     const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    if(randomNum <= 3){
+    if(randomNum === 0){
         AudioPlayer("meguru_ciallo.mp3")
-    } else if(randomNum >= 4 && randomNum <= 7){
+    } else if(randomNum === 1 && randomNum <= 7){
         AudioPlayer("yoshino_ciallo.mp3")
     }
 }

@@ -1,12 +1,18 @@
 html {
-    margin: 40px;
+    margin: 50px 40px 40px 40px;
     background: #222222;
     font-family: Arial, sans-serif;
     justify-content: center;
-    display: block;
     color: #f1f1f1;
     font-size: 15px;
     line-height: 1.5;
+
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: block;
+    }
 
     h1 {
         font-size: 28px;
@@ -20,7 +26,6 @@ html {
     }
     
     a:hover {
-        transition: all 0.3s ease;
         color: #007bff;
         text-decoration-line: underline;
     }
@@ -32,30 +37,47 @@ html {
         background: radial-gradient(45em, #007bff);
         box-shadow: 4px 4px 10px #323232;
         border-radius: 8px;
-        color: #ffffff;
+        color: white;
         transition: all 0.3s ease;
     }
 
     button:hover {
-        transition: all 0.3s ease;
-        opacity: 0.6;
+        opacity: 0.75;
         cursor: pointer;
+    }
+
+    button:active {
+        scale: 90%;
     }
 
     input {
+        background-color: #999999;
+        color: #444444;
+        padding: 5px;
         border: none;
-        box-shadow: 4px 4px 10px #686868;
+        border-radius: 8px;
+        box-shadow: 4px 4px 10px #656565;
+        transition: all 0.3s ease;
     }
 
+    input:focus {
+        scale: 125%;
+    }
 
     .post {
+        user-select: none;
         cursor: pointer;
         max-width: 250px;
-        max-height: 130px;
+        height: auto;
         margin-block: 10px;
         background: #007bff;
         border-radius: 8px;
         padding: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .post:active {
+        scale: 90%;
     }
 
     .menu-button {
@@ -81,5 +103,9 @@ html {
         background: #444444;
         color: #ffffff;
         white-space: pre-wrap;
+    }
+
+    #end {
+        right: 100%;
     }
 }
