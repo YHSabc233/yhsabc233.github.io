@@ -2,13 +2,95 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>YHSabc233的个人网站-NowLoading...</title>
-  <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no"/>
-  <meta http-equiv="refresh" content="0.25; url=files/"/>
-  <link rel="stylesheet" href="/files/css/style.css">
+  <title>YHSabc233 · 入口</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="files/css/style.css">
+  <style>
+    /* 极简分岔路样式 —— 像终端里的两个选项 */
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #fafafa;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 480px;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.75rem;
+    }
+    .sub {
+      color: #5e5e5e;
+      margin-bottom: 2.5rem;
+      font-size: 0.95rem;
+    }
+    .portal {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    .btn {
+      display: block;
+      padding: 0.9rem 1.8rem;
+      text-decoration: none;
+      border: 1.5px solid #2c2c2c;
+      border-radius: 40px;
+      color: #2c2c2c;
+      font-weight: 450;
+      transition: all 0.2s ease;
+      background: transparent;
+      font-size: 1.1rem;
+    }
+    .btn:hover {
+      background: #2c2c2c;
+      color: #fafafa;
+    }
+    .btn-secondary {
+      border-color: #aaa;
+      color: #5e5e5e;
+    }
+    .btn-secondary:hover {
+      background: #aaa;
+      color: #fafafa;
+      border-color: #aaa;
+    }
+    .note {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+    /* 若 style.css 未加载或不存在，以上样式作为优雅降级 */
+  </style>
 </head>
 <body>
-  <p>正在重定向至<a href="files/index.html">网站首页</a>...</p>
-  <p>如果你的浏览器没有自动跳转，<br>还请点击上面的文字手动跳转。</p>
+  <main>
+    <h1>YHSabc233</h1>
+    <div class="sub">选择你的入口</div>
+    
+    <div class="portal">
+      <!-- 继续浏览 → 原目标页面 (files/index.html) -->
+      <a href="files/index.html" class="btn">继续浏览<br><span style="font-size:0.8rem; opacity:0.7;">主站点 · 作品/记录</span></a>
+      
+      <!-- 新页面 → test.html (注意: 路径相对于当前 index.html) -->
+      <a href="files/test.html" class="btn btn-secondary">新页面<br><span style="font-size:0.8rem; opacity:0.7;">试验场 · test.html</span></a>
+    </div>
+    
+    <div class="note">
+      —— 岔路，但都可以回头 ——
+    </div>
+  </main>
 </body>
 </html>
